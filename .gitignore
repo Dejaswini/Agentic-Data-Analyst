@@ -1,0 +1,13 @@
+@"
+.env
+.env.example
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.pytest_cache/
+pgdata/
+ada
+pg.log
+"@ | Add-Content .gitignore
